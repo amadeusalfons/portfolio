@@ -528,11 +528,11 @@ img {
 }
 
 .skills__react {
-  width: 40%;
+  width: 20%;
 }
 
 .skills__php {
-  width: 25%;
+  width: 10%;
 }
 
 .skills__mysql {
@@ -540,7 +540,7 @@ img {
 }
 
 .skills__python {
-  width: 25%;
+  width: 35%;
 }
 
 .skills__designarch {
