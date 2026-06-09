@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Code, Zap, Briefcase, Target } from "lucide-react"
+import { Code, Zap, Target } from "lucide-react"
 
 const skillCategories = [
   {
@@ -123,10 +123,10 @@ export default function SkillsSection() {
             const Icon = category.icon
             return (
               <motion.div key={category.id} variants={itemVariants}>
-                <div className="bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-xl p-8 hover:border-primary/30 transition-colors group">
+                <div className="glass-card rounded-xl p-8 transition-colors group">
                   {/* Header */}
                   <div className="flex items-center gap-4 mb-6">
-                    <div className="p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
+                    <div className="p-3 glass-card rounded-lg">
                       <Icon className="w-6 h-6 text-primary" />
                     </div>
                     <h3 className="text-xl font-bold text-foreground">
@@ -146,15 +146,14 @@ export default function SkillsSection() {
                       <motion.span
                         key={index}
                         variants={skillVariants}
-                        className="px-4 py-2 bg-slate-800/50 border border-slate-700 text-sm rounded-full text-foreground/80 hover:border-primary/50 hover:text-primary transition-all duration-300 cursor-default"
+                        className="px-4 py-2 glass-card text-sm rounded-full text-foreground/80 hover:text-primary transition-all duration-300 cursor-default"
                       >
                         {skill}
                       </motion.span>
                     ))}
                   </motion.div>
 
-                  {/* Bottom accent */}
-                  <div className="mt-6 h-1 bg-gradient-to-r from-primary/50 to-transparent rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+
                 </div>
               </motion.div>
             )

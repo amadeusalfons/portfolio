@@ -98,13 +98,12 @@ export default function MetricsSection() {
                 variants={itemVariants}
                 className="group relative"
               >
-                {/* Card Background with gradient border */}
-                <div className="absolute inset-0 bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl blur group-hover:blur-xl -z-10" />
+    
 
                 {/* Card */}
-                <div className="relative p-6 bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-xl hover:border-primary/50 transition-all duration-300 group-hover:shadow-lg group-hover:shadow-primary/20 h-full">
+                <div className="relative p-6 glass-card rounded-xl transition-all duration-300 h-full">
                   {/* Icon Container */}
-                  <div className="mb-4 inline-block p-3 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
+                  <div className="mb-4 inline-block p-3 glass-card rounded-lg">
                     <Icon className="w-6 h-6 text-primary" />
                   </div>
 
@@ -123,8 +122,7 @@ export default function MetricsSection() {
                     {metric.description}
                   </p>
 
-                  {/* Hover accent line */}
-                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r from-primary to-secondary opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-b-xl" />
+
                 </div>
               </motion.div>
             )

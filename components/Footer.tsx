@@ -15,25 +15,8 @@ export default function Footer() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          {/* Left */}
-          <div className="text-center md:text-left">
-            <p>
-              © {currentYear} Amadeus Alfons. All rights reserved. Built with
-              React & Next.js.
-            </p>
-          </div>
-
-          {/* Right */}
-          <div className="flex gap-6 text-center">
-            <a href="#" className="hover:text-primary transition-colors">
-              Privacy
-            </a>
-            <a href="#" className="hover:text-primary transition-colors">
-              Terms
-            </a>
-            <a href="#" className="hover:text-primary transition-colors">
-              Sitemap
-            </a>
+          <div className="text-center">
+            <p>© {currentYear} Amadeus Alfons. All rights reserved.</p>
           </div>
         </motion.div>
       </div>

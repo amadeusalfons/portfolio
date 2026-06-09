@@ -8,7 +8,6 @@ interface ProjectCardProps {
   description: string
   tags: string[]
   icon: string
-  accentColor: string
   link?: string
   github?: string
 }
@@ -18,20 +17,16 @@ export default function ProjectCard({
   description,
   tags,
   icon,
-  accentColor,
   link,
   github,
 }: ProjectCardProps) {
   return (
     <motion.div
       whileHover={{ y: -8, transition: { duration: 0.3 } }}
-      className="group"
+      className="group h-full"
     >
-      <div className="relative h-full bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-300">
-        {/* Gradient accent on hover */}
-        <div
-          className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-${accentColor} to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300`}
-        />
+      <div className="relative h-full glass-card rounded-xl overflow-hidden transition-all duration-300">
+
 
         {/* Content */}
         <div className="p-6 h-full flex flex-col">
@@ -55,7 +50,7 @@ export default function ProjectCard({
             {tags.map((tag, index) => (
               <span
                 key={index}
-                className="px-3 py-1 bg-slate-800/50 border border-slate-700 rounded-full text-xs text-foreground/70 group-hover:border-primary/30 transition-colors"
+                className="px-3 py-1 glass-card rounded-full text-xs text-foreground/70 transition-colors"
               >
                 {tag}
               </span>

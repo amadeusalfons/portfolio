@@ -9,45 +9,40 @@ const projects = [
     description:
       "Advanced analytics dashboard for content strategy and regional market analysis. Track performance metrics, optimize regional dominance, and make data-driven content decisions.",
     tags: ["MySQL", "Data Visualization", "Analytics", "Strategy"],
-    icon: "🎬",
-    accentColor: "red-500",
-    link: "#",
+    icon: "📊",
+    link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
     title: "Classic Models Dashboard",
     description:
       "Executive-level sales analytics platform tracking $9.6M in sales. Provides 360-degree sales performance visibility with KPIs, trends, and actionable insights.",
     tags: ["MySQL", "Power BI", "Analytics", "Executive KPIs"],
-    icon: "📊",
-    accentColor: "blue-500",
-    link: "#",
+    icon: "📈",
+    link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
     title: "Fotoyuk Virtual Photo Booth",
     description:
       "Browser-based virtual photobooth powered by Google AI Studio. Real-time frame capture, custom layouts, and instant sharing capabilities for events.",
     tags: ["Google AI Studio", "ReactJS", "UX Design", "Real-time"],
-    icon: "📸",
-    accentColor: "purple-500",
-    link: "#",
+    icon: "🖼️",
+    link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
     title: "Full-Stack Delivery Portfolio",
     description:
       "Comprehensive suite of web and software solutions including ARCN Website, Charactra Landing, cGroovy Platform, Telegram Bot, and Cafe POS System.",
     tags: ["Java", "ReactJS", "Python", "SQL", "Full-Stack"],
-    icon: "⚙️",
-    accentColor: "emerald-500",
-    link: "#",
+    icon: "🔧",
+    link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
     title: "UI/UX & Graphic Designs",
     description:
       "Professional brand strategy execution and creative visual assets. Comprehensive design systems, marketing collateral, and brand identity development.",
     tags: ["Figma", "Brand Strategy", "UI/UX", "Asset Design"],
-    icon: "🎨",
-    accentColor: "pink-500",
-    link: "#",
+    icon: "🎭",
+    link: "https://canva.link/xay0j3uuwb686c4",
   },
 ]
 
