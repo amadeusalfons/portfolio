@@ -11,7 +11,6 @@ const experiences = [
     division: "HRIS Division",
     role: "Business Analyst Intern",
     period: "2024 - Present",
-    icon: "🏦",
     highlights: [
       "Designed and implemented bulk-update mechanism for HR systems",
       "Conducted stakeholder requirements gathering and analysis",
@@ -26,7 +25,6 @@ const experiences = [
     role: "Founder & Business Director",
     division: "Premium Fragrance Brand",
     period: "2023 - Present",
-    icon: "🧴",
     highlights: [
       "Founded and scaled premium fragrance brand from concept to market",
       "Developed comprehensive brand strategy and identity",
@@ -41,7 +39,6 @@ const experiences = [
     role: "Sales & Advisory Associate",
     division: "Financial Services",
     period: "2023 - 2024",
-    icon: "💼",
     highlights: [
       "Conducted financial needs analysis for client portfolio",
       "Managed CRM tracking and customer relationship workflows",
@@ -56,7 +53,6 @@ const experiences = [
     role: "Full-Stack Developer",
     division: "Independent Consultant",
     period: "2022 - Present",
-    icon: "💻",
     highlights: [
       "Delivered full lifecycle web development projects for clients",
       "Managed client communication and project requirements",
@@ -127,7 +123,6 @@ export default function ExperienceSection() {
                 }`}
               >
                 <div className="flex items-center gap-2">
-                  <span className="text-lg">{exp.icon}</span>
                   <span className="hidden sm:inline text-xs truncate">
                     {exp.company}
                   </span>

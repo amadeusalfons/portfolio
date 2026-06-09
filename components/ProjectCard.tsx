@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { ExternalLink, Code } from "lucide-react"
+import { Icon } from "@iconify/react"
 
 interface ProjectCardProps {
   title: string
@@ -33,7 +34,7 @@ export default function ProjectCard({
           {/* Icon and Title */}
           <div className="flex items-start justify-between mb-4">
             <div>
-              <span className="text-3xl mb-3 block">{icon}</span>
+              <Icon icon={icon} className="w-8 h-8 mb-3 text-primary" />
               <h3 className="text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                 {title}
               </h3>

@@ -46,7 +46,7 @@ export default function Hero() {
             viewport={{ once: true }}
             className="flex justify-center md:justify-start"
           >
-            <div className="relative w-80 h-96 md:w-96 md:h-full">
+            <div className="relative w-72 h-96 md:w-80 md:h-96">
               {/* Glassmorphic border frame */}
               <div className="absolute inset-0 glass-card rounded-3xl" />
               {/* Profile image */}
@@ -54,8 +54,9 @@ export default function Hero() {
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Studio%20Photo-wC8QAjbVJAnAcHcnb8gcG29NHUE9vq.png"
                   alt="Amadeus Alfons, Business Analyst and Systems Thinker specializing in enterprise process optimization"
-                  fill
-                  className="object-cover"
+                  width={320}
+                  height={384}
+                  className="object-cover w-full h-full"
                   priority
                 />
               </div>

@@ -9,7 +9,7 @@ const projects = [
     description:
       "Advanced analytics dashboard for content strategy and regional market analysis. Track performance metrics, optimize regional dominance, and make data-driven content decisions.",
     tags: ["MySQL", "Data Visualization", "Analytics", "Strategy"],
-    icon: "📊",
+    icon: "mdi:chart-line",
     link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     description:
       "Executive-level sales analytics platform tracking $9.6M in sales. Provides 360-degree sales performance visibility with KPIs, trends, and actionable insights.",
     tags: ["MySQL", "Power BI", "Analytics", "Executive KPIs"],
-    icon: "📈",
+    icon: "mdi:trending-up",
     link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description:
       "Browser-based virtual photobooth powered by Google AI Studio. Real-time frame capture, custom layouts, and instant sharing capabilities for events.",
     tags: ["Google AI Studio", "ReactJS", "UX Design", "Real-time"],
-    icon: "🖼️",
+    icon: "mdi:image-frame",
     link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     description:
       "Comprehensive suite of web and software solutions including ARCN Website, Charactra Landing, cGroovy Platform, Telegram Bot, and Cafe POS System.",
     tags: ["Java", "ReactJS", "Python", "SQL", "Full-Stack"],
-    icon: "🔧",
+    icon: "mdi:wrench",
     link: "https://canva.link/xay0j3uuwb686c4",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
     description:
       "Professional brand strategy execution and creative visual assets. Comprehensive design systems, marketing collateral, and brand identity development.",
     tags: ["Figma", "Brand Strategy", "UI/UX", "Asset Design"],
-    icon: "🎭",
+    icon: "mdi:palette",
     link: "https://canva.link/xay0j3uuwb686c4",
   },
 ]
