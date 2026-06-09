@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Github, Mail, Heart, ArrowRight } from "lucide-react"
+import { Code, Mail, Heart, ArrowRight } from "lucide-react"
 
 export default function Hero() {
   const containerVariants = {
@@ -104,7 +104,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="p-3 bg-primary/10 rounded-full hover:bg-primary/20 text-primary transition-colors"
           >
-            <Github className="w-6 h-6" />
+            <Code className="w-6 h-6" />
           </a>
           <a
             href="mailto:contact@example.com"
