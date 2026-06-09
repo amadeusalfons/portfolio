@@ -52,7 +52,7 @@ export default function Hero() {
               {/* Profile image */}
               <div className="relative w-full h-full rounded-3xl overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Studio%20Photo-wC8QAjbVJAnAcHcnb8gcG29NHUE9vq.png"
+                  src="/img/studiophoto.png"
                   alt="Amadeus Alfons, Business Analyst and Systems Thinker specializing in enterprise process optimization"
                   width={320}
                   height={384}
