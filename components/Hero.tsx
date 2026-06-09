@@ -128,10 +128,18 @@ export default function Hero() {
               viewport={{ once: true }}
               className="flex flex-col sm:flex-row gap-4 mb-8"
             >
-              <button className="px-8 py-3 bg-primary text-background font-semibold rounded-lg hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 group">
+              <a
+                href="#metrics"
+                onClick={(e) => {
+                  e.preventDefault()
+                  const element = document.getElementById('metrics')
+                  element?.scrollIntoView({ behavior: 'smooth' })
+                }}
+                className="px-8 py-3 bg-primary text-background font-semibold rounded-lg hover:bg-primary/90 transition-colors flex items-center justify-center gap-2 group cursor-pointer"
+              >
                 View Case Studies
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </button>
+              </a>
               <button className="px-8 py-3 glass-card text-primary font-semibold rounded-lg hover:bg-primary/20 transition-colors">
                 Let&apos;s Connect
               </button>
@@ -155,7 +163,7 @@ export default function Hero() {
                 <Code className="w-5 h-5" />
               </a>
               <a
-                href="mailto:contact@example.com"
+                href="mailto:amadeusalfons@gmail.com"
                 className="p-3 glass-card rounded-full hover:bg-primary/20 text-primary transition-colors"
                 aria-label="Email"
               >

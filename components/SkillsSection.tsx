@@ -9,7 +9,7 @@ const skillCategories = [
     title: "Languages & Databases",
     icon: Code,
     color: "primary",
-    skills: ["Java", "Python", "SQL/MySQL", "HTML/CSS/JavaScript", "PHP"],
+    skills: ["Java", "Python", "SQL/MySQL", "HTML/CSS/JavaScript"],
   },
   {
     id: 2,

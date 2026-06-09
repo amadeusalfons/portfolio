@@ -30,7 +30,7 @@ export default function ContactSection() {
 
         {/* Contact Card */}
         <motion.div
-          className="bg-slate-900/50 backdrop-blur-sm border border-slate-800 rounded-xl p-12 hover:border-primary/30 transition-colors group"
+          className="glass-card rounded-xl p-12 transition-colors group"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -38,7 +38,7 @@ export default function ContactSection() {
         >
           <div className="text-center">
             <div className="mb-6 flex justify-center">
-              <div className="p-4 bg-primary/10 rounded-lg group-hover:bg-primary/20 transition-colors">
+              <div className="p-4 glass-card rounded-lg">
                 <Mail className="w-8 h-8 text-primary" />
               </div>
             </div>
@@ -53,7 +53,7 @@ export default function ContactSection() {
 
             <div className="space-y-4 mb-8">
               <a
-                href="mailto:contact@example.com"
+                href="mailto:amadeusalfons@gmail.com"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-background font-semibold rounded-lg hover:bg-primary/90 transition-colors group/btn"
               >
                 Send Email
@@ -62,7 +62,7 @@ export default function ContactSection() {
             </div>
 
             {/* Social Links */}
-            <div className="flex justify-center gap-6 pt-8 border-t border-slate-700">
+            <div className="flex justify-center gap-6 pt-8 border-t border-white/10">
               <a
                 href="https://github.com"
                 target="_blank"
@@ -90,8 +90,7 @@ export default function ContactSection() {
             </div>
           </div>
 
-          {/* Bottom accent */}
-          <div className="mt-8 h-1 bg-gradient-to-r from-primary via-secondary to-primary opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded" />
+
         </motion.div>
       </div>
     </section>

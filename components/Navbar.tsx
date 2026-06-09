@@ -37,7 +37,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="#" className="text-xl font-bold gradient-text">
-            Amadeus
+            Amadeus Alfons W.
           </Link>
 
           {/* Desktop Menu */}
