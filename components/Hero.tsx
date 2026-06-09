@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { Code, Mail, Briefcase, ArrowRight } from "lucide-react"
 import Image from "next/image"
+import studioPortrait from "../../img/studiophoto.png"
 
 export default function Hero() {
   const containerVariants = {
@@ -52,7 +53,7 @@ export default function Hero() {
               {/* Profile image */}
               <div className="relative w-full h-full rounded-3xl overflow-hidden">
                 <Image
-                  src="/img/studiophoto.png"
+                  src={studioPortrait}
                   alt="Amadeus Alfons, Business Analyst and Systems Thinker specializing in enterprise process optimization"
                   width={320}
                   height={384}
