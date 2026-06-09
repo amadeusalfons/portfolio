@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import { Code, Mail, Briefcase, ArrowRight } from "lucide-react"
 import Image from "next/image"
-import studioPortrait from "../../img/studiophoto.png"
+import studioPortrait from "@/img/studiophoto.png"
 
 export default function Hero() {
   const containerVariants = {
