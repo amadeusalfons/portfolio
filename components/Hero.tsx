@@ -46,14 +46,14 @@ export default function Hero() {
             viewport={{ once: true }}
             className="flex justify-center md:justify-start"
           >
-            <div className="relative w-64 h-72 md:w-72 md:h-80">
+            <div className="relative w-80 h-96 md:w-96 md:h-full">
               {/* Glassmorphic border frame */}
-              <div className="absolute inset-0 glass-card rounded-2xl" />
+              <div className="absolute inset-0 glass-card rounded-3xl" />
               {/* Profile image */}
-              <div className="relative w-full h-full rounded-2xl overflow-hidden">
+              <div className="relative w-full h-full rounded-3xl overflow-hidden">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Studio%20Photo-wC8QAjbVJAnAcHcnb8gcG29NHUE9vq.png"
-                  alt="Amadeus Alfons"
+                  alt="Amadeus Alfons, Business Analyst and Systems Thinker specializing in enterprise process optimization"
                   fill
                   className="object-cover"
                   priority
@@ -154,27 +154,27 @@ export default function Hero() {
               className="flex gap-4"
             >
               <a
-                href="https://github.com"
+                href="https://github.com/amadeusalfons/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glass-card rounded-full hover:bg-primary/20 text-primary transition-colors"
-                aria-label="GitHub"
+                aria-label="GitHub Profile"
               >
                 <Code className="w-5 h-5" />
               </a>
               <a
                 href="mailto:amadeusalfons@gmail.com"
                 className="p-3 glass-card rounded-full hover:bg-primary/20 text-primary transition-colors"
-                aria-label="Email"
+                aria-label="Send Email"
               >
                 <Mail className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://id.linkedin.com/in/amadeusalfons"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 glass-card rounded-full hover:bg-primary/20 text-primary transition-colors"
-                aria-label="LinkedIn"
+                aria-label="LinkedIn Profile"
               >
                 <Briefcase className="w-5 h-5" />
               </a>

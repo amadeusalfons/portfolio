@@ -19,12 +19,10 @@ export default function ContactSection() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Let&apos;s Build Something Great
+            Good solutions usually start with better questions.
           </h2>
           <p className="text-lg text-foreground/70 mb-4">
-            My brain is basically always asking &quot;okay but why does that work
-            that way.&quot; It&apos;s a little annoying, honestly. Let&apos;s build
-            something efficient together.
+            My default is to ask &quot;okay, but why does that work that way? Maybe even 5 times&quot; before touching anything. It slows down the first five minutes and saves the last five hours. If you&apos;re looking for someone who thinks before they build, let&apos;s talk.
           </p>
         </motion.div>
 
@@ -64,26 +62,29 @@ export default function ContactSection() {
             {/* Social Links */}
             <div className="flex justify-center gap-6 pt-8 border-t border-white/10">
               <a
-                href="https://github.com"
+                href="https://github.com/amadeusalfons/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/60 hover:text-primary transition-colors font-medium"
+                aria-label="GitHub Profile"
               >
                 GitHub
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://id.linkedin.com/in/amadeusalfons"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/60 hover:text-primary transition-colors font-medium"
+                aria-label="LinkedIn Profile"
               >
                 LinkedIn
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/amadeusalfons"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground/60 hover:text-primary transition-colors font-medium"
+                aria-label="Instagram Profile"
               >
                 Instagram
               </a>
